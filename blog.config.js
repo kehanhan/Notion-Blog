@@ -1,8 +1,8 @@
 const BLOG = {
-  title: "KeHan - Blog",
-  author: 'kehan',
+  title: "柯涵瀚的博客",
+  author: '柯涵瀚',
   email: 'ke_han@icloud.com',
-  link: 'https://blog.kehan.vercel.app',
+  link: 'https://blog.kehanhan.vercel.app',
   description: 'Stay curios, stay interested',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
