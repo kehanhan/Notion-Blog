@@ -3,7 +3,7 @@ const BLOG = {
   author: '柯涵瀚',
   email: 'ke_han@icloud.com',
   link: 'https://blog.kehanhan.vercel.app',
-  description: 'Stay curios, stay interested',
+  description: 'Stay curious, stay interested',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -37,13 +37,13 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'gitalk', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'notion-blog', // The repository of store comments
-      owner: 'kehanhan',
-      admin: ['kehanhan'],
-      clientID: '5813931ba4ef3f450c7a',
-      clientSecret: '86e41b959d8abf4388d51418cf3f4def74a96a75',
+      repo: '', // The repository of store comments
+      owner: '',
+      admin: [''],
+      clientID: '',
+      clientSecret: '',
       distractionFreeMode: false
     },
     utterancesConfig: {
