@@ -1,7 +1,7 @@
 const BLOG = {
   title: "柯涵瀚的博客",
   author: '柯涵瀚',
-  email: 'ke_han@icloud.com',
+  email: 'ke_hanhan@outlook.com',
   link: 'https://blog.kehanhan.vercel.app',
   description: 'Stay curious, stay interested',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
@@ -10,12 +10,12 @@ const BLOG = {
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2021, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: true,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://github.com/kehanhan',
   seo: {
